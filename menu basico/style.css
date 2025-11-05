@@ -1,0 +1,19 @@
+body {
+font-family: 'Courier New', monospace;
+background-color: #111;
+color: white;
+text-align: center;
+transition: 0.4s;
+}
+body.claro {
+background-color: #f8f8f8;
+color: #111;
+}
+button {
+background: crimson;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
