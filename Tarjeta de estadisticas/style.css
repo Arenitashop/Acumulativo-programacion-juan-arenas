@@ -1,0 +1,25 @@
+body {
+background: linear-gradient(135deg, #111, #300);
+color: white;
+font-family: 'Bebas Neue', sans-serif;
+text-align: center;
+}
+.tarjeta {
+background-color: rgba(255,255,255,0.1);
+border-radius: 15px;
+padding: 20px;
+display: inline-block;
+margin-top: 40px;
+}
+img {
+width: 200px;
+border-radius: 10px;
+}
+button {
+background: gold;
+border: none;
+margin-left: 5px;
+padding: 3px 8px;
+border-radius: 5px;
+cursor: pointer;
+}

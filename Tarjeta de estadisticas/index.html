@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tarjeta de Héroe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="tarjeta">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh4wZk9XXl4rQWrhJ3zMZCuWVEU9Q5Z41ae4l8CVVd9nTd4QAeZDSCqnBgl7eZbDMZpqs&usqp=CAU" alt="Iron Man">
+<h2>Iron Man</h2>
+<div class="stats">
+<div>Fuerza: <span id="fuerza">80</span> <button onclick="cambiar('fuerza', 1)">+</button> <button onclick="cambiar('fuerza', -1)">-</button></div>
+<div>Inteligencia: <span id="inteligencia">95</span> <button onclick="cambiar('inteligencia', 1)">+</button> <button onclick="cambiar('inteligencia', -1)">-</button></div>
+<div>Velocidad: <span id="velocidad">70</span> <button onclick="cambiar('velocidad', 1)">+</button> <button onclick="cambiar('velocidad', -1)">-</button></div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
