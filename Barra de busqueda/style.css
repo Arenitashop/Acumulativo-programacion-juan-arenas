@@ -1,0 +1,12 @@
+body {
+background: radial-gradient(circle, #010203, #050505);
+color: #00ffcc;
+font-family: 'Orbitron', sans-serif;
+text-align: center;
+}
+input, button {
+padding: 8px;
+margin: 5px;
+border-radius: 5px;
+border: none;
+}
